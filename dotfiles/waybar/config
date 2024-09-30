@@ -13,7 +13,7 @@
 
     "modules-left": ["custom/smallspacer","hyprland/workspaces"],
     "modules-center": ["custom/padd","custom/l_end","custom/r_end","clock","custom/padd"],
-    "modules-right": ["pulseaudio","custom/notification","custom/padd"],
+    "modules-right": ["pulseaudio","tray","custom/padd"],
 
     "mpris": {
         "format": "{player_icon} {dynamic}",
@@ -38,24 +38,10 @@
 
 
     "custom/notification": {
-        "tooltip": false,
-        "format": "{icon}",
-        "format-icons": {
-            "notification": "󰅸",
-            "none": "󰂜",
-            "dnd-notification": "󰅸",
-            "dnd-none": "󱏨",
-            "inhibited-notification": "󰅸",
-            "inhibited-none": "󰂜",
-            "dnd-inhibited-notification": "󰅸",
-            "dnd-inhibited-none": "󱏨"
-        },
-        "return-type": "json",
-        "exec-if": "which swaync-client",
-        "exec": "swaync-client -swb",
-        "on-click-right": "swaync-client -d -sw",
-        "on-click": "swaync-client -t -sw",
-        "escape": true
+        "exec": "cat '/tmp/notifications'",
+        "interval": 1,
+	    "return-type": "json",
+	    "max-length": 50
     },
 
 
