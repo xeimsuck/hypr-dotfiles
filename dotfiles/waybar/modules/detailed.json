@@ -1,0 +1,16 @@
+{
+	"modules-left": [
+    "hyprland/workspaces",
+		"hyprland/window"
+	],
+	"modules-center": [
+		"clock"
+  ],
+  "modules-right": [
+    "network",
+    "hyprland/language",
+    "tray",
+		"pulseaudio",
+    "custom/power"
+  ]
+}
