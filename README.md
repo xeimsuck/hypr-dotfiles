@@ -1,21 +1,26 @@
-# Introduction
-This is my first rice.
-Display Server: Wayland
-Compositor: Hyprland
-Display Manager: SDDM
-Status bar: Waybar
+# Motivation
+This is my first rice.   
 
 
-# Dependencies
-hyprpicker - color picker
-hyprpaper - wallpaper
-hyprlock - screen locker
-nautilus - filemanager
-kitty - terminal
-nm-connection-editor (and networkmanager daemon) - gui nm
+# Stack   
+Display Server: Wayland   
+Compositor: Hyprland   
+Display Manager: SDDM   
+Status bar: Waybar   
 
-# Installation
-## Dependencies
-`yay -S hyprpicker hyprpaper hyprlock nautilus kitty networkmanager nm-connection-editor`
-## Dotfiles
-soon...
+
+# Dependencies   
+hyprpicker - color picker   
+hyprpaper - wallpaper   
+hyprlock - screen locker   
+nautilus - filemanager   
+kitty - terminal   
+nm-connection-editor (and networkmanager daemon) - gui nm   
+
+
+# Installation   
+## Dependencies   
+`yay -S hyprpicker hyprpaper hyprlock nautilus kitty networkmanager nm-connection-editor`   
+
+## Dotfiles   
+soon...   
