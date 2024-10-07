@@ -9,7 +9,7 @@
 	"fixed-center": true,
 	"reload_style_on_change": true,
 
-  "include": ["./modules/detailed.json"],
+  "include": ["$HOME/hypr-dotfiles/.config/waybar/modules/detailed.json"],
    
 	"hyprland/workspaces": {
 		"active-only": false,
