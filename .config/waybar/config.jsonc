@@ -1,12 +1,11 @@
 {
 	"layer": "top",
 	"position": "top",
-  "spacing": 4, 
-	"margin-right": 10, //croc: 400
-	"margin-left": 10, //croc: 400
-	"margin-top": 0, //croc: 0
+  "spacing": 0, 
+	"margin-right": 10,
+	"margin-left": 10,
+	"margin-top": 0,
 	"mode": "dock",
-	"height": 10,
 	"fixed-center": true,
 	"reload_style_on_change": true,
 
@@ -15,7 +14,7 @@
 	"hyprland/workspaces": {
 		"active-only": false,
 		"all-outputs": true,
-		"format": "{id}",
+		"format": "",
 		"format-icons": {
 			"default": "*",
 			"active": "."
@@ -31,8 +30,8 @@
 
 	"hyprland/language": {
 		"format": "{}",
-		"format-en": "English",
-		"format-ru": "Russian"
+		"format-en": "Eng",
+		"format-ru": "Rus"
 	},
 
 	// not used
