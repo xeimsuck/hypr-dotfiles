@@ -25,11 +25,11 @@ window#waybar.hidden {
 
 #workspaces button {
 	font-size: 0;
-	background-color: #2FAADC;
+	background-color: #79C2DF;
 	border-radius: 30px;
 	padding: 0px 5px;
 	margin: 3px;
-	box-shadow: 0px 0px 2px #2FAADC;
+	box-shadow: 0px 0px 2px #79C2DF;
 }
 
 #workspaces button.active{
