@@ -30,8 +30,8 @@
 
 	"hyprland/language": {
 		"format": "{}",
-		"format-en": "Eng",
-		"format-ru": "Rus"
+		"format-en": "ENG",
+		"format-ru": "RUS"
 	},
 
 	// not used

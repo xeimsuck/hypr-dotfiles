@@ -16,20 +16,20 @@ window#waybar.hidden {
 }
 
 #workspaces {
-	background-color: RGBA(25, 30, 30, 0.9);
+	background-color: RGBA(25, 30, 30, 0.3);
 	border-radius: 20px;
 	margin: 4px;
-	padding: 8px 8px;
+	padding: 4px;
 	box-shadow: 0px 0px 3px #111;
 }
 
 #workspaces button {
 	font-size: 0;
-	background-color: #285D6B;
+	background-color: #2FAADC;
 	border-radius: 30px;
 	padding: 0px 5px;
 	margin: 3px;
-	box-shadow: 0px 0px 2px #184D5B;
+	box-shadow: 0px 0px 2px #2FAADC;
 }
 
 #workspaces button.active{
@@ -58,11 +58,12 @@ window#waybar.hidden {
 #power-profiles-daemon,
 #custom-power,
 #mpd {
-	background-color: RGBA(25, 30, 30, 0.9);
+	background-color: RGBA(25, 30, 30, 0.3);
 	border-radius: 20px;
 	margin: 4px;
 	padding: 8px 16px;
-	color: #AAA;
+	color: #C3D9E1;
+	text-shadow: 0px 0px 2px #C3D9E1;
 	box-shadow: 0px 0px 3px #111;
 }
 
